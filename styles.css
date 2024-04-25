@@ -24,44 +24,30 @@ footer {
 
 .w {
     background-image: url("./tom1.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .a {
     background-image: url("./tom2.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .s {
     background-image: url("./tom3.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .d {
     background-image: url("./tom4.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .j {
     background-image: url("./snare.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .k {
     background-image: url("./crash.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .l {
     background-image: url("./kick.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .game-over {
@@ -94,12 +80,29 @@ footer {
     text-align: center;
     margin: 10px;
     background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 @media (max-width:1024px) {
     .drum {
         width: 300px;
         height: 300px;
+        outline: none;
+        border: 10px solid #404B69;
+        font-size: 5rem;
+        font-family: 'Arvo', cursive;
+        line-height: 2;
+        font-weight: 900;
+        color: #DA0463;
+        text-shadow: 3px 3px #DBEDF3;
+        border-radius: 15px;
+        display: inline-block;
+        text-align: center;
+        margin: 10px;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
     footer {
         font-size: 3rem;
